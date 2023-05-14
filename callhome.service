@@ -1,0 +1,9 @@
+[Unit]
+Description=HTTP request to callhome PHP script to publish router IP address
+ConditionACPower=true
+After=network.target network-online.target systemd-networkd.service NetworkManager.service connman.service
+
+[Service]
+Type=oneshot
+ExecStart=curl -s https://your-webhost.org/callhome/
+StandardOutput=null

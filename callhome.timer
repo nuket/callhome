@@ -1,0 +1,8 @@
+[Unit]
+Description=HTTP request to callhome PHP script to publish router IP address
+
+[Timer]
+OnCalendar=hourly
+
+[Install]
+WantedBy=timers.target
