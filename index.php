@@ -156,7 +156,7 @@ function main($caller) {
     }
 }
 
-if ($_REQUEST['caller']) {
+if (array_key_exists('caller', $_REQUEST)) {
     main($_REQUEST['caller']);
 }
 else {
