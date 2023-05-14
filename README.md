@@ -13,6 +13,10 @@ The PHP script then records the IP address, which corresponds to
 your home router, and tracks the number of times the router has sent
 requests from a certain address.
 
+The list of IP addresses looks like this, with newest entries first:
+
+![Callhome address log](callhome.png)
+
 ## Installing Callhome on Ubuntu
 
 Adjust the URL to be pinged by `curl` (you can also use `wget`),
