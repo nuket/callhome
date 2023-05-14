@@ -4,7 +4,9 @@
  * A simple script to record the public IP address of my home internet connection
  * and print this in a simple table for me.
  *
- * Used in conjunction with the regularly-run systemd service and your own public
+ * Copy this file to a folder of your choice on a public webhost.
+ *
+ * Used in conjunction with a timer-run systemd service and your own public
  * webhost (which provides PHP), you can always find your home network,
  * without needing a subscription to a dynamic DNS service.
  *
@@ -13,7 +15,7 @@
  */
 
 /*
- *
+ * Callhome
  * Copyright (c) 2023 Max Vilimpoc
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
